@@ -6,7 +6,7 @@ export default function Home() {
       className="flex flex-col items-center justify-center min-h-screen bg-cover bg-center"
     
     >
-      <h1 className="text-8xl font-bold text-center mb-4 text-white drop-shadow-lg">
+      <h1 className="text-xl md:text-4xl lg:text-8xl font-bold text-center mb-4 text-white drop-shadow-lg">
   Connect with Professionals
 </h1>
 
