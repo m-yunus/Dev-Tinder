@@ -14,13 +14,9 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={`  min-h-screen`}>
-        <div className='coverhome bg-blend-overlay'>
-        <Header />
-        <main className=" min-h-screen">
+     
           {children}
-        </main>
-        <Footer />
-        </div>
+      
       </body>
     </html>
   );

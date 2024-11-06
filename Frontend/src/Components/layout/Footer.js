@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div className="h-auto px-2 py-4  md:py-4 bg-black  text-white">
+    <div className="h-auto px-2 py-4 md:px-14  md:py-4 bg-black  text-white">
       <div className="w-[90%] mx-auto">
 
       <div className="flex flex-wrap lg:min-w  justify-start gap-8 lg:gap-16">
@@ -50,7 +50,11 @@ const Footer = () => {
       </div>
       
       </div>
-    </div>
+     
+        <div className="w-[90%] bg-gray-700 h-[1px] m-4 px-6  mx-auto">
+          </div>
+      </div>
+   
   );
 };
 

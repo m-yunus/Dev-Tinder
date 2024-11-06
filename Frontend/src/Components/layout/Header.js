@@ -54,10 +54,10 @@ export default function Header() {
             <span className="ml-1">Language</span>
           </Link>
 
-          <Button asChild className="rounded-full hover:bg-black hover:text-white">
+          <Button asChild className="rounded-full hover:bg-black hover:text-white text-black">
             <Link
               href="/auth/register"
-              className="bg-white hover:bg-black hover:text-white text-black px-4 py-2 md:text-xl font-semibold rounded-full"
+              className=" bg-white  text-black px-4 py-2 md:text-xl font-semibold rounded-full"
             >
               Log in
             </Link>
