@@ -56,7 +56,7 @@ export default function Header() {
 
           <Button asChild className="rounded-full hover:bg-black hover:text-white text-black">
             <Link
-              href="/auth/register"
+              href={"/create-account"}
               className=" bg-white  text-black px-4 py-2 md:text-xl font-semibold rounded-full"
             >
               Log in

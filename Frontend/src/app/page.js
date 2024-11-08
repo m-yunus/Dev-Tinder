@@ -6,13 +6,13 @@ import Footer from "@/Components/layout/Footer";
 export default function Home() {
   return (
     <>
-       <div className='coverhome bg-blend-overlay'>
+      <div className="coverhome bg-blend-overlay">
         <Header />
         <main className=" min-h-screen">
-    <Landing_cover/>
-    </main>
+          <Landing_cover />
+        </main>
         <Footer />
-        </div>
+      </div>
     </>
   );
 }
