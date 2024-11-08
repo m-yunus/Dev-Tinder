@@ -2,8 +2,11 @@ import React from 'react'
 
 const ID = ({params}) => {
     console.log(params?.id)
-  return (
-    <h1>ID: {params.id}</h1>
+  return (<div className='h-100'>
+ <h1 className='text-3xl'>fgjkdjjjjjjjjjjjjifjjndfkgnnfgiojijfdoijdfijgID: {params.id}</h1>
+  </div>
+
+   
   )
 }
 
