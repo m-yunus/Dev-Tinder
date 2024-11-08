@@ -14,7 +14,7 @@ const CreateAccountPage = () => {
   const methods = useForm();
 
   const onSubmit = (data) => {
-    console.log(data,"g");
+    console.log(data,"fd");
     // Handle form submission here
   };
 
