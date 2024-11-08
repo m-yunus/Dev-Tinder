@@ -5,7 +5,7 @@ import { useForm, FormProvider } from 'react-hook-form';
 import CreateAccountHeader from '@/Components/create-account/Header';
 import Footer from '@/Components/layout/Footer';
 import { Button } from '@/Components/ui/button';
-import { FormField, FormLabel, FormControl } from '@/Components/ui/form';
+import { FormField, FormControl } from '@/Components/ui/form';
 import { Input } from '@/Components/ui/input';
 import { Select, SelectContent, SelectGroup, SelectItem, SelectLabel, SelectTrigger, SelectValue } from '@/Components/ui/select';
 import { Checkbox } from '@/Components/ui/checkbox';
@@ -30,7 +30,7 @@ const CreateAccountPage = () => {
               <div className="flex w-full gap-4 mb-4">
                 <div className="flex flex-col w-1/2">
                   <div className="mb-4 flex flex-col ">
-                    <FormLabel className="text-white mb-4">First Name</FormLabel>
+                    <label className="text-white mb-4">First Name</label>
                     <FormControl>
                       <Input
                         {...methods.register('firstName')}
@@ -41,7 +41,7 @@ const CreateAccountPage = () => {
                     </FormControl>
                   </div>
                   <div className="flex flex-col mb-4">
-                    <FormLabel className="text-white mb-4">Email</FormLabel>
+                    <label className="text-white mb-4">Email</label>
                     <FormControl>
                       <Input
                         {...methods.register('email')}
@@ -53,7 +53,7 @@ const CreateAccountPage = () => {
                     </FormControl>
                   </div>
                   <div className="flex flex-col mb-4">
-                    <FormLabel className="text-white mb-4">Birthday</FormLabel>
+                    <label className="text-white mb-4">Birthday</label>
                     <FormControl>
                       <Input
                         {...methods.register('email')}
@@ -66,7 +66,7 @@ const CreateAccountPage = () => {
                     </FormControl>
                   </div>
                   <div className="flex flex-col mb-4">
-                    <FormLabel className="text-white mb-4">Gender</FormLabel>
+                    <label className="text-white mb-4">Gender</label>
                     <Select style={{ backgroundColor: 'black', border: '1px solid #3a3939' }}>
       <SelectTrigger style={{ backgroundColor: 'black', border: '1px solid #3a3939',color:'white' }} className="w-[180px]">
         <SelectValue placeholder="Select Gender" />
