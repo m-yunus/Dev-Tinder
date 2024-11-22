@@ -28,7 +28,7 @@ const CreateAccountPage = () => {
           <FormProvider {...methods}>
             <form onSubmit={methods.handleSubmit(onSubmit)}>
               <div className="flex w-full gap-4 mb-4">
-                <div className="flex flex-col w-1/2">
+                <div className="flex flex-col w-max md:w-1/2">
                   <div className="mb-4 flex flex-col ">
                     <label className="text-white mb-4">First Name</label>
                     <FormControl>
